@@ -1,6 +1,8 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
 
 * {
+  /* font-family: 'Raleway', sans-serif; */
   font-family: 'Poppins', sans-serif;
   /* border: solid 1px red; */
 }
@@ -18,12 +20,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  border: solid 1px yellow;
   height: 50px;
-  background-color: rgba(0, 0, 255, 0.461);
   gap: 40px;
   padding: 10px 0px;
+}
+
+.nav_bal {
+  border: solid 1px green;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: yellowgreen;
+}
+
+.nav_address {
+  border: solid 1px yellow;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: springgreen;
 }
 
 .nav_connect {
@@ -31,6 +44,7 @@
   background-color: green;
   border-radius: 5px;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .nft-list {
@@ -113,4 +127,25 @@
   font-family: inherit;
   font-size: 17px;
   cursor: pointer;
+}
+
+.notice {
+  background-color: rgba(238, 255, 0, 0.844);
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .9rem;
+}
+
+.notice .msg {
+  width: 98%;
+  text-align: center;
+  margin: 10px;
+}
+
+.notice .close {
+  cursor: pointer;
+  font-size: 25px;
+  margin: 10px;
 }
